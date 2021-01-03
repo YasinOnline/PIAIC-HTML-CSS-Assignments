@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch_07 Assignment</title>
+</head>
+
+<body>
+    <h1>Forms in Action</h1>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Your Details</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Your Review
+            </legend>
+            <p>
+                <label for="source">How did you hear about it?</label>
+                <select id="source" name="source">
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="youtube">YouTube</option>
+                </select>
+            </p>
+            <p>
+                <label for="visit">Would you visit again?</label><br>
+                <label><input type="radio" id="yes" name="visit" value="yes" checked>Yes&emsp;</label>
+                <label><input type="radio" id="no" name="visit" value="no">No&emsp;</label>
+                <label><input type="radio" id="maybe" name="visit" value="maybe">May be&emsp;</label>
+            </p>
+            <p><label>Comments:</label><br>
+                <textarea id="comments" name="comments" rows="10" cols="50"></textarea>
+            </p>
+            <p><input type="checkbox" id="signup" name="signup">
+                <label for="signup">Sign me up for email updates.</label>
+            </p>
+            <p><input type="submit" id="submit" name="submit" value="Submit Review"></p>
+        </fieldset>
+    </form>
+</body>
+
+</html>
