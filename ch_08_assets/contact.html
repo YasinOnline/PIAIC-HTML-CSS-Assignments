@@ -17,9 +17,53 @@
         <span style="margin-right: 2%; font-size: x-large;"><a href="contact.html">CONTACT</a></span>
     </header>
 
+    <form action="#" method="GET" style="margin-top: 3em; margin-bottom: 2em;">
+        <fieldset>
+            <legend>Your Details</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Your Review
+            </legend>
+            <p>
+                <label for="source">How did you hear about it?</label>
+                <select id="source" name="source">
+                    <option value="google">Google</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="youtube">YouTube</option>
+                </select>
+            </p>
+            <p>
+                <label for="visit">Would you visit again?</label><br>
+                <label><input type="radio" id="yes" name="visit" value="yes" checked>Yes&emsp;</label>
+                <label><input type="radio" id="no" name="visit" value="no">No&emsp;</label>
+                <label><input type="radio" id="maybe" name="visit" value="maybe">May be&emsp;</label>
+            </p>
+            <p><label>Comments:</label><br>
+                <textarea id="comments" name="comments" rows="10" cols="50"></textarea>
+            </p>
+            <p><input type="checkbox" id="signup" name="signup">
+                <label for="signup">Sign me up for email updates.</label>
+            </p>
+            <p><input type="submit" id="submit" name="submit" value="Submit Review"></p>
+        </fieldset>
+    </form>
+<div style="margin-top: 3em; margin-bottom: 5em;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27214.692478517572!2d74.33855993551401!3d31.501175993899537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919044b6cec9e8f%3A0x3cefeae38e0549ef!2sSaylani%20Welfare%20Trust%20Charity!5e0!3m2!1sen!2s!4v1609912667226!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
+</div>
     <footer
-        style="background-color:#5b9bd5; border: 2px solid gray; border-radius: 10px; text-align: center; line-height: 1em; position: fixed; bottom: 0; width: 90%;">
+        style="background-color:#5b9bd5; border: 2px solid gray; border-radius: 10px; text-align: center; line-height: 1em;">
         <p>Copyright © 2021. All rights reserved to PIAIC Batch 8 Quarter 2.</p>
     </footer>
 </body>

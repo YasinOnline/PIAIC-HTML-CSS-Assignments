@@ -1,0 +1,54 @@
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    padding: 5px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+td {
+    width: 5.55%;
+    line-height: 3em;
+}
+
+sup {
+    font-size: small;
+    font-weight: 100;
+}
+
+.border {
+    border: 1px solid gray;
+}
+
+.alkalimatles {
+    background-color: #ffe0b2;
+}
+
+.alkalinemetals {
+    background-color: #ffcc80;
+}
+
+.transitionmetals {
+    background-color: #d2c4e8;
+}
+
+.othermetals {
+    background-color: #ffcdd2;
+}
+
+.othernonmetals {
+    background-color: #ffab91;
+}
+
+.halogens {
+    background-color: #a5d6a7;
+}
+
+.rearmetals {
+    background-color: #e6ee9b;
+}
+
+.actinoid {
+    background-color: #b3e5fc
+}
