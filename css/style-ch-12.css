@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+    line-height: 2em;
+    font-size: larger;
+}
+
+.small {
+    font-variant: small-caps;
+}
+
+.times {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.shadow {
+    text-shadow: 3px 3px 8px #808080;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.italic {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.blue {
+    color: blue;
+}
