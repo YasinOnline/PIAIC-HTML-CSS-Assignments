@@ -31,6 +31,6 @@ a {
     font-size: xx-large;
 }
 
-.blue {
+.blue, p > a {
     color: blue;
 }
