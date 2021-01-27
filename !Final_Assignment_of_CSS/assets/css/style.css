@@ -1,131 +1,219 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 header {
-    background-color: black;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
+  background-color: #000;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 img {
-    margin-right: 5px;
-    /* center align the images vertically */
-    vertical-align: middle;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 header>div>a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn-tel {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
-.btn-header {
-    margin-left: 32px;
-    height: 35px;
-    width: 135px;
-    background-color: #a2d94a;
-    border: none;
-    border-bottom: 3px solid #59711b;
-    border-radius: 5px;
+.btn-header, .btn-slider {
+  margin-left: 32px;
+  height: 40px;
+  width: 135px;
+  line-height: 2.5;
+  text-align: center;
+  color: #000;
+  text-shadow: 1px 1px 1px #fff;
+  background-color: #a2d94a;
+  border: none;
+  border-bottom: 3px solid #59711b;
+  border-radius: 5px;
+}
+
+.btn-header:hover {
+  border-bottom: 3px solid #fcbe15;
+}
+
+.btn-header:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 .navigation {
-    width: 100%;
-    height: 100px;
-    margin: 10px 0px;
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
 }
 
 nav {
-    height: 100px;
-    line-height: 100px;
+  height: 100px;
+  line-height: 100px;
 }
 
 nav>a {
-    margin: 0px 15px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
 }
 
 nav>a:active, nav>a:hover {
-    border-bottom: 12px solid #fcbe15;
-    padding-bottom: 40px;
+  border-bottom: 12px solid #fcbe15;
+  padding-bottom: 40px;
 }
 
 .slider {
-    height: 620px;
-    width: 100%;
-    margin: auto;
-    background-image: url(../images/bg-slider.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+  height: 620px;
+  width: 100%;
+  margin: auto;
+  background-image: url(../images/bg-slider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .slider-heading, .slider-text {
-    color: white;
+  color: #fff;
 }
 
 .green-box {
-    height: 85px;
-    width: 29%;
-    background-color: #a2d84c;
+  height: 85px;
+  width: 29%;
+  background-color: #a2d84c;
 }
 
 .slider-heading {
-    width: 30%;
-    font-size: 70px;
-    font-weight: bold;
-    margin: 0;
-    display: inline;
+  width: 30%;
+  font-size: 70px;
+  font-weight: 700;
+  margin: 0;
+  display: inline;
 }
 
 .slider-text {
-    font-size: medium;
-    width: 50%;
-    margin: 0px auto;
+  font-size: medium;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .btn-slider {
-    width: 230px;
-    height: 60px;
-    background-color: #febd19;
-    border-radius: 10px;
-    border: none;
-    border-bottom: 5px solid #ff8221;
-    margin: 50px auto 80px auto;
+  width: 230px;
+  height: 60px;
+  background-color: #febd19;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 5px solid #ff8221;
+  margin: 50px auto 80px auto;
+}
+
+.btn-slider:hover {
+  border-bottom: 3px solid #59711b;
+}
+
+.btn-slider:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 button {
-    outline: none;
+  outline: 0;
 }
 
 .dot, .dot-white {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    border-radius: 50%;
-    display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .dot-white {
-    background-color: white;
+  background-color: #fff;
 }
 
 .dot {
-    background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.text-color-black {
+  color: #000;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.text-color-green {
+  color: #59711b;
+}
+
+.advantages, .about {
+  width: 100%;
+  height: 590px;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+  margin-top: 55px;
+}
+
+h2 {
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+.advantages>p {
+  margin-top: 30px;
+}
+
+.advantage {
+  width: 20%;
+  float: left;
+  margin-top: 55px;
+}
+
+.advantage>img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+.about {
+  width: 100%;
+  height: 590px;
+  position: relative;
+  text-align: center;
+  background-image: url(../images/bg-about-us.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3em;
+}
+.about div{
+  width: 40%;
+  padding: 3em;
+}
+.about p {
+  text-align: left;
+}
+.about > img{
+  width: 400px;
+  height: 100%;
 }

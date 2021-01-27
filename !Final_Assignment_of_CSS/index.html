@@ -2,43 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PIAIC HTML, CSS, Final Assignment</title>
-    <link type="text/css" rel="stylesheet" href="../!Final_Assignment_of_CSS/assets/css/style.css">
-    <link type="text/css" rel="stylesheet" href="../!Final_Assignment_of_CSS/assets/css/slider.css">
+    <link type="text/css" rel="stylesheet" href="../!Final_Assignment_of_CSS/assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../!Final_Assignment_of_CSS/assets/css/slider.css" />
     <script src="../!Final_Assignment_of_CSS/assets/js/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="left" style="margin-left: 40px;">
+        <div class="left" style="margin-left: 40px">
             <a href="#"><img src="../!Final_Assignment_of_CSS/assets/images/icon-facebook.png" alt="facebook icon"
-                    title="Facebook Link"></a>
+                    title="Facebook Link" /></a>
             <a href="#"><img src="../!Final_Assignment_of_CSS/assets/images/icon-twitter.png" alt="twitter icon"
-                    title="Twitter Link"></a>
+                    title="Twitter Link" /></a>
             <a href="#"><img src="../!Final_Assignment_of_CSS/assets/images/icon-google+.png" alt="google+ icon"
-                    title="Google+ Link"></a>
+                    title="Google+ Link" /></a>
             <a href="#"><img src="../!Final_Assignment_of_CSS/assets/images/icon-linkedin.png" alt="linkedin icon"
-                    title="LinkedIn Link"></a>
+                    title="LinkedIn Link" /></a>
             <a href="#"><img src="../!Final_Assignment_of_CSS/assets/images/icon-youtube.png" alt="youtube icon"
-                    title="YouTube Link"></a>
+                    title="YouTube Link" /></a>
         </div>
-        <div class="right" style="padding-right: 40px;">
-            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone icon" title="Phone">
+        <div class="right" style="padding-right: 40px">
+            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone icon" title="Phone" />
             <a href="tel:+923043866719">+92(304) 386-6719</a>
             <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone icon" title="Phone"
-                class="btn-tel">
+                class="btn-tel" />
             <a href="+923170013001">+92(317)001-3001</a>
-            <button type="button" class="btn-header">CALL ME BACK</button>
+            <button type="button" class="btn-header" onclick="alert('Thank you for contacting us.')">
+                CALL ME BACK
+            </button>
         </div>
     </header>
     <section class="navigation">
-        <div class="left" style="margin-left: 40px;">
-            <img src="../!Final_Assignment_of_CSS/assets/images/piaic-logo-color.png" alt="PIAIC Logo"
-                title="PIAIC Logo">
+        <div class="left" style="margin-left: 40px">
+            <a href="#">
+                <img src="../!Final_Assignment_of_CSS/assets/images/piaic-logo-color.png" alt="PIAIC Logo"
+                    title="PIAIC Logo" /></a>
         </div>
-        <nav class="right" style="padding-right: 40px;">
+        <nav class="right" style="padding-right: 40px">
             <a href="#advantages">WHY US</a>
             <a href="#about">ABOUT</a>
             <a href="#services">SERVICES</a>
@@ -50,110 +53,134 @@
         </nav>
     </section>
     <section class="slider">
-        <div style="padding-top: 190px; padding-bottom: 50px;">
+        <div style="padding-top: 190px; padding-bottom: 50px">
             <div class="green-box left"></div>
             <div class="slider-heading center">WE ARE EXPERTS</div>
             <div class="green-box right"></div>
         </div>
-        <p class="slider-text">Aliquam ultrices sagittis orci a scelerisque purus semper eget. Mi tempus imperdiet
-            nulla
-            malesuada pellentesque elit eget. Feugiat nisl pretium fusce id velit ut tortor pretium. Pharetra sit
-            amet aliquam id diam maecenas.</p>
+        <p class="slider-text">
+            Aliquam ultrices sagittis orci a scelerisque purus semper eget. Mi
+            tempus imperdiet nulla malesuada pellentesque elit eget. Feugiat nisl
+            pretium fusce id velit ut tortor pretium. Pharetra sit amet aliquam id
+            diam maecenas.
+        </p>
         <button type="button" class="btn-slider">READ MORE</button>
-        <div style="text-align:center">
+        <div style="text-align: center">
             <span class="dot-white"></span>
             <span class="dot"></span>
             <span class="dot"></span>
         </div>
     </section>
-    <section id="advantages">
-        <h1>OUR ADVANTAGES</h1>
-        <p>Mattis enim ut tellus elementum sagittis vitae et leo. Neque sodales ut etiam sit amet nisl. Convallis
-            aenean et tortor at risus viverra adipiscing.</p>
+    <section class="advantages">
+        <h1>
+            <span class="text-color-black">OUR</span><span class="text-color-green"> ADVANTAGES</span>
+        </h1>
+        <p>
+            Mattis enim ut tellus elementum sagittis vitae et leo. Neque sodales ut
+            etiam sit amet nisl. Convallis aenean et tortor at risus viverra
+            adipiscing.
+        </p>
         <div>
-            <img src="../!Final_Assignment_of_CSS/assets/images/innovation.png" alt="innovation" title="Innovation">
-            <h2>INNOVATION</h2>
-            <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
-        </div>
-        <div>
-            <img src="../!Final_Assignment_of_CSS/assets/images/quality.png" alt="quality" title="Quality">
-            <h2>QUALITY</h2>
-            <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
-        </div>
-        <div>
-            <img src="../!Final_Assignment_of_CSS/assets/images/experience.png" alt="experienc" title="Experience">
-            <h2>EXPERIENCE</h2>
-            <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
-        </div>
-        <div>
-            <img src="../!Final_Assignment_of_CSS/assets/images/happy-client.png" alt="happy-clients"
-                title="Happy Clients">
-            <h2>HAPPY CLIENTS</h2>
-            <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
-        </div>
-        <div>
-            <img src="../!Final_Assignment_of_CSS/assets/images/support.png" alt="support" title="Support">
-            <h2>SUPPORT</h2>
-            <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
+            <div class="advantage">
+                <img src="../!Final_Assignment_of_CSS/assets/images/innovation.png" alt="innovation"
+                    title="Innovation" />
+                <h2>INNOVATION</h2>
+                <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
+            </div>
+            <div class="advantage">
+                <img src="../!Final_Assignment_of_CSS/assets/images/quality.png" alt="quality" title="Quality" />
+                <h2>QUALITY</h2>
+                <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
+            </div>
+            <div class="advantage">
+                <img src="../!Final_Assignment_of_CSS/assets/images/experience.png" alt="experienc"
+                    title="Experience" />
+                <h2>EXPERIENCE</h2>
+                <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
+            </div>
+            <div class="advantage">
+                <img src="../!Final_Assignment_of_CSS/assets/images/happy-client.png" alt="happy-clients"
+                    title="Happy Clients" />
+                <h2>HAPPY CLIENTS</h2>
+                <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
+            </div>
+            <div class="advantage">
+                <img src="../!Final_Assignment_of_CSS/assets/images/support.png" alt="support" title="Support" />
+                <h2>SUPPORT</h2>
+                <p>Elementum nisi quis eleifend quam adipiscing vitae.</p>
+            </div>
         </div>
     </section>
-    <section id="about">
-        <img src="../!Final_Assignment_of_CSS/assets/images/hr-line.png" alt="horizontal-line" title="horizontal line">
-        <h1>ABOUT US</h1>
+    <section class="about">
+        <h1><span class="text-color-black">ABOUT</span><span class="text-color-green"> US</span></h1>
         <div class="left">
-            <p>Eleifend donec pretium vulputate sapien. Auctor urna nunc id cursus. Hendrerit dolor magna eget est lorem
-                ipsum.</p>
+            <p>
+                Eleifend donec pretium vulputate sapien. Auctor urna nunc id cursus.
+                Hendrerit dolor magna eget est lorem ipsum.
+            </p><br/>
 
-            <p>Laoreet suspendisse interdum consectetur libero id faucibus. Mus mauris vitae ultricies leo integer
-                malesuada nunc vel risus. Dolor magna eget est lorem ipsum. Lobortis feugiat vivamus at augue eget arcu
-                dictum. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. At lectus urna duis
-                convallis. Lectus sit amet est placerat.</p>
+            <p>
+                Laoreet suspendisse interdum consectetur libero id faucibus. Mus
+                mauris vitae ultricies leo integer malesuada nunc vel risus. Dolor
+                magna eget est lorem ipsum. Lobortis feugiat vivamus at augue eget
+                arcu dictum. Aenean vel elit scelerisque mauris pellentesque pulvinar
+                pellentesque. At lectus urna duis convallis. Lectus sit amet est
+                placerat.
+            </p><br>
 
-            <p>Nibh cras pulvinar mattis nunc sed. Diam sit amet nisl suscipit
-                adipiscing bibendum est. Pellentesque massa placerat duis ultricies. Sed turpis tincidunt id aliquet
-                risus feugiat in ante metus. Nibh tellus molestie nunc non blandit. Sit amet aliquam id diam maecenas
-                ultricies mi. Est ultricies integer quis auctor.</p>
+            <p>
+                Nibh cras pulvinar mattis nunc sed. Diam sit amet nisl suscipit
+                adipiscing bibendum est. Pellentesque massa placerat duis ultricies.
+                Sed turpis tincidunt id aliquet risus feugiat in ante metus. Nibh
+                tellus molestie nunc non blandit. Sit amet aliquam id diam maecenas
+                ultricies mi. Est ultricies integer quis auctor.
+            </p><br>
             <button type="button">READ MORE</button>
         </div>
         <div class="right">
-            <img src="../!Final_Assignment_of_CSS/assets/images/about-img.png" alt="about-image" title="About">
+            <img src="../!Final_Assignment_of_CSS/assets/images/about-img.png" alt="about-image" title="About" />
         </div>
     </section>
     <section id="services">
         <h1>OUR SERVICES</h1>
-        <P>Sapien pellentesque habitant morbi tristique senectus et netus. Cursus vitae congue mauris rhoncus aenean vel
-            elit scelerisque. Massa placerat duis ultricies lacus sed.</P>
+        <p>
+            Sapien pellentesque habitant morbi tristique senectus et netus. Cursus
+            vitae congue mauris rhoncus aenean vel elit scelerisque. Massa placerat
+            duis ultricies lacus sed.
+        </p>
         <div class="services">
             <div>
-                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services">
+                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services" />
                 <h2>WEB DESIGN</h2>
-                <P>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</P>
+                <p>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</p>
                 <a href="#">read more</a>
             </div>
             <div>
-                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services">
+                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services" />
                 <h2>GRAPHIC DESING</h2>
-                <P>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</P>
+                <p>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</p>
                 <a href="#">read more</a>
             </div>
             <div>
-                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services">
+                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services" />
                 <h2>BRANDING</h2>
-                <P>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</P>
+                <p>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</p>
                 <a href="#">read more</a>
             </div>
             <div>
-                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services">
+                <img src="../!Final_Assignment_of_CSS/assets/images/services.png" alt="services" title="Services" />
                 <h2>MARKETING</h2>
-                <P>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</P>
+                <p>Velit ut tortor pretium viverra suspendisse potenti nullam ac.</p>
                 <a href="#">read more</a>
             </div>
         </div>
     </section>
     <section id="portfolio">
         <h2>OUR PORTFOLIO</h2>
-        <P>Pellentesque id nibh tortor id aliquet. Aenean et tortor at risus viverra adipiscing. Rhoncus mattis rhoncus
-            urna neque viverra justo.</P>
+        <p>
+            Pellentesque id nibh tortor id aliquet. Aenean et tortor at risus
+            viverra adipiscing. Rhoncus mattis rhoncus urna neque viverra justo.
+        </p>
         <div class="nav-portfolio">
             <a href="#">WEB DESIGN</a>
             <a href="#">GRAPHIC DESIGN</a>
@@ -163,149 +190,184 @@
             <a href="#">ADVERTISMENT</a>
         </div>
         <div class="logo">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-01.png" alt="horse" title="Horse">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-02.png" alt="social-tree" title="Social Tree">
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-01.png" alt="horse" title="Horse" />
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-02.png" alt="social-tree" title="Social Tree" />
             <img src="../!Final_Assignment_of_CSS/assets/images/logo-03.png" alt="creative-brain"
-                title="Creative Brain">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-04.png" alt="team-success" title="Team Success">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-05.png" alt="rhino-group" title="Rhino Group">
+                title="Creative Brain" />
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-04.png" alt="team-success" title="Team Success" />
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-05.png" alt="rhino-group" title="Rhino Group" />
         </div>
         <div class="logo">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-06.png" alt="growth-place" title="Growth Place">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-07.png" alt="brain-works" title="Brain Works">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-08.png" alt="lion-group" title="Lion Group">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-09.png" alt="growth-place" title="Growth Place">
-            <img src="../!Final_Assignment_of_CSS/assets/images/logo-10.png" alt="social-group" title="Social Group">
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-06.png" alt="growth-place" title="Growth Place" />
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-07.png" alt="brain-works" title="Brain Works" />
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-08.png" alt="lion-group" title="Lion Group" />
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-09.png" alt="growth-place" title="Growth Place" />
+            <img src="../!Final_Assignment_of_CSS/assets/images/logo-10.png" alt="social-group" title="Social Group" />
         </div>
     </section>
     <section id="process">
-        <img src="../!Final_Assignment_of_CSS/assets/images/down-arrow.png" alt="down-arrow" title="Down Arrow">
+        <img src="../!Final_Assignment_of_CSS/assets/images/down-arrow.png" alt="down-arrow" title="Down Arrow" />
         <h1>OUR PROCESS</h1>
-        <P>Dolor purus non enim praesent elementum. Feugiat scelerisque varius morbi enim nunc faucibus a. Enim ut sem
-            viverra aliquet eget sit amet.</P>
+        <p>
+            Dolor purus non enim praesent elementum. Feugiat scelerisque varius
+            morbi enim nunc faucibus a. Enim ut sem viverra aliquet eget sit amet.
+        </p>
         <div class="process">
             <div>
                 <img src="../!Final_Assignment_of_CSS/assets/images/request-call.png" alt="request-call"
-                    title="Request Call">
+                    title="Request Call" />
                 <h2>REQUEST CALL</h2>
-                <p>Ac turpis egestas integer eget aliquet nibh praesent tristique magna.</p>
+                <p>
+                    Ac turpis egestas integer eget aliquet nibh praesent tristique
+                    magna.
+                </p>
             </div>
             <div>
                 <img src="../!Final_Assignment_of_CSS/assets/images/consultation.png" alt="consultation"
-                    title="Consultation">
+                    title="Consultation" />
                 <h2>CONSULTATION</h2>
-                <p>Ac turpis egestas integer eget aliquet nibh praesent tristique magna.</p>
+                <p>
+                    Ac turpis egestas integer eget aliquet nibh praesent tristique
+                    magna.
+                </p>
             </div>
             <div>
-                <img src="../!Final_Assignment_of_CSS/assets/images/planning.png" alt="planning" title="Planning">
+                <img src="../!Final_Assignment_of_CSS/assets/images/planning.png" alt="planning" title="Planning" />
                 <h2>PLANNING</h2>
-                <p>Ac turpis egestas integer eget aliquet nibh praesent tristique magna.</p>
+                <p>
+                    Ac turpis egestas integer eget aliquet nibh praesent tristique
+                    magna.
+                </p>
             </div>
             <div>
                 <img src="../!Final_Assignment_of_CSS/assets/images/work-process.png" alt="work-process"
-                    title="Work Process">
+                    title="Work Process" />
                 <h2>WORK PROCESS</h2>
-                <p>Ac turpis egestas integer eget aliquet nibh praesent tristique magna.</p>
+                <p>
+                    Ac turpis egestas integer eget aliquet nibh praesent tristique
+                    magna.
+                </p>
             </div>
             <div>
-                <img src="../!Final_Assignment_of_CSS/assets/images/correcting.png" alt="correcting" title="Correcting">
+                <img src="../!Final_Assignment_of_CSS/assets/images/correcting.png" alt="correcting"
+                    title="Correcting" />
                 <h2>CORRECTING</h2>
-                <p>Ac turpis egestas integer eget aliquet nibh praesent tristique magna.</p>
+                <p>
+                    Ac turpis egestas integer eget aliquet nibh praesent tristique
+                    magna.
+                </p>
             </div>
             <div>
-                <img src="../!Final_Assignment_of_CSS/assets/images/deliver.png" alt="deliver" title="Deliver">
+                <img src="../!Final_Assignment_of_CSS/assets/images/deliver.png" alt="deliver" title="Deliver" />
                 <h2>DELIVER</h2>
-                <p>Ac turpis egestas integer eget aliquet nibh praesent tristique magna.</p>
+                <p>
+                    Ac turpis egestas integer eget aliquet nibh praesent tristique
+                    magna.
+                </p>
             </div>
-
         </div>
     </section>
     <section id="people">
         <h1>PEOPLE ABOUT US</h1>
-        <P>Eu nisl nunc mi ipsum. Augue neque gravida in fermentum et sollicitudin ac orci phasellus. Egestas integer
-            eget aliquet nibh praesent tristique.</P>
+        <p>
+            Eu nisl nunc mi ipsum. Augue neque gravida in fermentum et sollicitudin
+            ac orci phasellus. Egestas integer eget aliquet nibh praesent tristique.
+        </p>
         <div class="people">
-            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe">
+            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe" />
             <h2>JOHN DOE</h2>
-            <P>Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Mattis
-                nunc sed blandit libero.</P>
+            <p>
+                Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis
+                enim lobortis scelerisque. Mattis nunc sed blandit libero.
+            </p>
         </div>
         <div class="people">
-            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe">
+            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe" />
             <h2>JOHN DOE</h2>
-            <P>Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Mattis
-                nunc sed blandit libero.</P>
+            <p>
+                Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis
+                enim lobortis scelerisque. Mattis nunc sed blandit libero.
+            </p>
         </div>
         <div class="people">
-            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe">
+            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe" />
             <h2>JOHN DOE</h2>
-            <P>Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Mattis
-                nunc sed blandit libero.</P>
+            <p>
+                Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis
+                enim lobortis scelerisque. Mattis nunc sed blandit libero.
+            </p>
         </div>
         <div class="people">
-            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe">
+            <img src="../!Final_Assignment_of_CSS/assets/images/people.png" alt="people" title="John Doe" />
             <h2>JOHN DOE</h2>
-            <P>Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis enim lobortis scelerisque. Mattis
-                nunc sed blandit libero.</P>
+            <p>
+                Aenean euismod elementum nisi quis. Facilisi etiam dignissim diam quis
+                enim lobortis scelerisque. Mattis nunc sed blandit libero.
+            </p>
         </div>
     </section>
     <section id="skills">
         <h1>OUR SKILLS</h1>
-        <P>Pellentesque dictum, ipsum non condimentum efficitur, erat tortor sodales massa, vitae sollicitudin tortor
-            enim sed ipsum.</P>
+        <p>
+            Pellentesque dictum, ipsum non condimentum efficitur, erat tortor
+            sodales massa, vitae sollicitudin tortor enim sed ipsum.
+        </p>
         <figure>
-            <img src="../!Final_Assignment_of_CSS/assets/images/skill-one.png" alt="skill-one" title="skill-one">
+            <img src="../!Final_Assignment_of_CSS/assets/images/skill-one.png" alt="skill-one" title="skill-one" />
             <figcaption>SKILL ONE</figcaption>
         </figure>
         <figure>
-            <img src="../!Final_Assignment_of_CSS/assets/images/seo-and-ads.png" alt="seo-and-ads" title="SEO and Ads">
+            <img src="../!Final_Assignment_of_CSS/assets/images/seo-and-ads.png" alt="seo-and-ads"
+                title="SEO and Ads" />
             <figcaption>SEO & ADS</figcaption>
         </figure>
         <figure>
-            <img src="../!Final_Assignment_of_CSS/assets/images/branding.png" alt="branding" title="Branding">
+            <img src="../!Final_Assignment_of_CSS/assets/images/branding.png" alt="branding" title="Branding" />
             <figcaption>BRANDING</figcaption>
         </figure>
         <figure>
-            <img src="../!Final_Assignment_of_CSS/assets/images/web-design.png" alt="web-design" title="Web Design">
+            <img src="../!Final_Assignment_of_CSS/assets/images/web-design.png" alt="web-design" title="Web Design" />
             <figcaption>WEB DESIGN</figcaption>
         </figure>
     </section>
     <section id="request">
         <h1>START YOUR NEW PROJECT</h1>
         <div>
-            <input type="text" value="YOUR NAME">
-            <input type="email" value="YOUR EMAIL">
-            <input type="tel" value="YOUR PHONE">
+            <input type="text" value="YOUR NAME" />
+            <input type="email" value="YOUR EMAIL" />
+            <input type="tel" value="YOUR PHONE" />
             <button type="button">SEND REQUEST</button>
         </div>
     </section>
     <section id="contacts">
         <h1>OUR CONTACTS</h1>
-        <P>Pellentesque commodo dignissim turpis. Ut consectetur, orci ac egestas mollis, nibh lacus mattis elit, id
-            varius dolor turpis id sem.</P>
+        <p>
+            Pellentesque commodo dignissim turpis. Ut consectetur, orci ac egestas
+            mollis, nibh lacus mattis elit, id varius dolor turpis id sem.
+        </p>
         <div>
             <img src="../!Final_Assignment_of_CSS/assets/images/icon-location-green.png" alt="icon-location-green"
-                title="Location">
+                title="Location" />
             Donec viverra vulputate libero, id efficitur turpis venenatis non.
         </div>
         <div>
-            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-one" title="Phone One">
+            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-one" title="Phone One" />
             (304) 386-6719
-            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-two" title="Phone Two">
+            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-two" title="Phone Two" />
             (317) 011-3001
-            <img src="../!Final_Assignment_of_CSS/assets/images/icon-email.png" alt="email" title="Email">
+            <img src="../!Final_Assignment_of_CSS/assets/images/icon-email.png" alt="email" title="Email" />
             info@website.com
             <img src="../!Final_Assignment_of_CSS/assets/images/world-map-with-location.png" alt="world-map"
-                title="Wold Map">
+                title="Wold Map" />
         </div>
     </section>
     <footer>
         <div>
             <address>
                 <p>
-                    Morbi ac venenatis neque.<br>
-                    Praesent nisl mauris,<br>
-                    mattis nec hendrerit et, rutrum vel arcu.<br>
+                    Morbi ac venenatis neque.<br />
+                    Praesent nisl mauris,<br />
+                    mattis nec hendrerit et, rutrum vel arcu.<br />
                     Sed dignissim eget erat vel tincidunt.
                 </p>
             </address>
@@ -335,23 +397,23 @@
         </div>
         <div>
             <h1>CONTACTS</h1>
-            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-one" title="Phone One">
-            (304) 386-6719<br>
-            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-two" title="Phone Two">
-            (317) 011-3001<br>
-            <img src="../!Final_Assignment_of_CSS/assets/images/icon-email.png" alt="email" title="Email">
-            info@website.com<br>
+            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-one" title="Phone One" />
+            (304) 386-6719<br />
+            <img src="../!Final_Assignment_of_CSS/assets/images/icon-phone.png" alt="phone-two" title="Phone Two" />
+            (317) 011-3001<br />
+            <img src="../!Final_Assignment_of_CSS/assets/images/icon-email.png" alt="email" title="Email" />
+            info@website.com<br />
             <h1>FOLLOW US</h1>
             <img src="../!Final_Assignment_of_CSS/assets/images/icon-facebook.png" alt="facebook icon"
-                title="Facebook Link">
+                title="Facebook Link" />
             <img src="../!Final_Assignment_of_CSS/assets/images/icon-twitter.png" alt="twitter icon"
-                title="Twitter Link">
+                title="Twitter Link" />
             <img src="../!Final_Assignment_of_CSS/assets/images/icon-google+.png" alt="google+ icon"
-                title="Google+ Link">
+                title="Google+ Link" />
             <img src="../!Final_Assignment_of_CSS/assets/images/icon-linkedin.png" alt="linkedin icon"
-                title="LinkedIn Link">
+                title="LinkedIn Link" />
             <img src="../!Final_Assignment_of_CSS/assets/images/icon-youtube.png" alt="youtube icon"
-                title="YouTube Link">
+                title="YouTube Link" />
         </div>
     </footer>
 </body>
