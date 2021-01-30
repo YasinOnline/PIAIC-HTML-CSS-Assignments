@@ -5,6 +5,7 @@
   border: none;
   position: relative;
   text-align: center;
+  vertical-align: middle;
 }
 
 header {
@@ -32,11 +33,11 @@ header>div>a {
   color: #fff;
 }
 
-.btn-tel {
+.btn-tel-icon {
   margin-left: 12px;
 }
 
-.btn-header, .btn-slider {
+header button, .slider button {
   margin-left: 32px;
   height: 40px;
   width: 135px;
@@ -48,11 +49,11 @@ header>div>a {
   border-radius: 5px;
 }
 
-.btn-header:hover {
+header button:hover {
   border-bottom: 3px solid #fcbe15;
 }
 
-.btn-header:active {
+header button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
@@ -112,25 +113,26 @@ nav>a:active, nav>a:hover {
   margin: 0 auto;
 }
 
-.btn-slider {
+.slider button {
   width: 230px;
   height: 60px;
   background-color: #febd19;
   border-radius: 10px;
-  border-bottom: 5px solid #ff8221;
+  border-bottom: 3px solid #ff8221;
   margin: 50px auto 80px auto;
 }
 
-.btn-slider:hover {
+.slider button:hover {
   border-bottom: 3px solid #59711b;
 }
 
-.btn-slider:active {
+.slider button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 button {
   outline: 0;
+  border: none;
 }
 
 .dot, .dot-white, .dot-orange {
@@ -161,14 +163,14 @@ button {
   color: #59711b;
 }
 
-.advantages, .about {
+#advantages, .about {
   width: 100%;
   height: 590px;
   background-color: #fff;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: 800;
   margin-top: 55px;
 }
@@ -178,8 +180,9 @@ h2 {
   margin-bottom: 15px;
 }
 
-.advantages>p {
+#advantages>p {
   margin-top: 30px;
+  color: gray;
 }
 
 .advantage {
@@ -188,6 +191,9 @@ h2 {
   margin-top: 55px;
 }
 
+.advantage>p{
+  color: gray;
+}
 .advantage>img {
   height: 200px;
   width: 200px;
@@ -200,12 +206,12 @@ h2 {
   background-image: url(../images/bg-about-us.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 3rem;
+  padding-top: 3em;
 }
 
 .about div {
   width: 40%;
-  padding: 3rem;
+  padding: 3em;
 }
 
 .about p {
@@ -217,42 +223,43 @@ h2 {
   height: 100%;
 }
 
-.btn-about {
+.about button {
   width: 230px;
   height: 60px;
   background-color: #febd19;
   border-radius: 10px;
-  border-bottom: 5px solid #ff8221;
-  margin-top: 1rem;
+  border-bottom: 3px solid #ff8221;
+  margin-top: 1em;
   float: left;
 }
 
-.btn-about:hover {
+.about button:hover {
   border-bottom: 3px solid #59711b;
 }
 
-.btn-about:active {
+.about button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-.services {
+#services {
   width: 100%;
   height: 560px;
   background-color: white;
-  padding-top: 2rem;
+  padding-top: 2em;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  color: gray;
 }
 
 .services>p {
-  margin: 1rem;
+  margin: 1em;
 }
 
 .service {
   width: 100%;
-  height: 25rem;
-  margin-top: 5rem;
+  height: 25em;
+  margin-top: 5em;
 }
 
 .service div {
@@ -260,23 +267,24 @@ h2 {
   width: 17%;
   height: 200px;
   background-color: #f2f2f2;
-  border-radius: .5rem;
-  padding: 1rem;
-  margin: 1rem;
+  border-radius: .5em;
+  padding: 1em;
+  margin: 1em;
 }
 
 .service img {
-  width: 5rem;
+  width: 5em;
   height: auto;
-  margin-top: -3.5rem;
+  margin-top: -3.5em;
 }
 
 .service h2 {
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 
 .service p {
-  margin-bottom: 3rem;
+  margin-bottom: 3em;
+  color: gray;
 }
 
 .service a {
@@ -285,21 +293,22 @@ h2 {
 
 .portfolio {
   width: 100%;
-  height: 55rem;
-  padding-top: 3rem;
+  height: 55em;
+  padding-top: 3em;
   background-color: #212121;
   color: white;
 }
 
 .portfolio p {
-  margin: 2rem 0;
+  margin: 2em 0;
+  color: gray;
 }
 
 .portfolio a {
-  color: white;
+  color: rgb(216, 216, 216);
   text-decoration: none;
   display: inline-block;
-  margin: 1rem;
+  margin: 1em;
 }
 
 .text-color-orange {
@@ -309,7 +318,7 @@ h2 {
 
 .logos {
   width: 100%;
-  margin: 1rem auto;
+  margin: 1em auto;
 }
 
 .logos img {
@@ -322,8 +331,8 @@ h2 {
 .arrow {
   display: block;
   width: 100%;
-  height: 3rem;
-  padding-top: 1rem;
+  height: 3em;
+  padding-top: 1em;
 }
 
 .process {
@@ -336,14 +345,16 @@ h2 {
   display: inline-block;
   width: 10%;
   height: 200px;
-  padding: 1rem;
-  margin-bottom: 10rem;
+  padding: 1em;
+  margin-bottom: 10em;
 }
 
 .process h2, .process p, .process img {
-  margin-top: 1.5rem;
+  margin-top: 1.5em;
 }
-
+.process p, #process p{
+  color: gray;
+}
 .process img {
   width: 100%;
   height: auto;
@@ -351,7 +362,7 @@ h2 {
 
 .peopleaboutus {
   width: 100%;
-  height: 52rem;
+  height: 52em;
   padding-top: 5px;
   background-color: #f2f2f2;
   background-image: url(../images/people-about-us-bg.png);
@@ -362,6 +373,7 @@ h2 {
 .peopleaboutus>p {
   margin-top: 1%;
   margin-bottom: 3%;
+  color: gray;
 }
 
 .people {
@@ -386,7 +398,7 @@ h2 {
 .johndoe img {
   width: 20%;
   height: auto;
-  margin-right: 1rem;
+  margin-right: 1em;
   float: left;
 }
 
@@ -400,7 +412,6 @@ hr {
 
 .vl {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
-  /* border-left: 6px solid gray; */
   height: 200%;
   position: absolute;
   left: 50%;
@@ -415,4 +426,170 @@ hr {
 
 .peopleaboutus .dot {
   background-color: rgba(255, 131, 29, .5) !important;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#skills > p{
+  color: gray;
+}
+
+figure {
+  margin: 3em;
+}
+
+figcaption {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.request {
+  width: 100%;
+  height: 25em;
+  background-color: #8dc63f;
+  color: white;
+}
+
+.request>h1 {
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+
+input[type=text], input[type=email], input[type=tel], .request button {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.request button {
+  background-color: #febd19;
+  border-bottom: 3px solid #ff8221;
+  cursor: pointer;
+  margin-left: 20px;
+  width: 10%;
+}
+
+.request button:hover {
+  border-bottom: 3px solid #59711b;
+}
+
+.request button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.request p {
+  width: 60%;
+  margin: 3em auto
+}
+
+.contacts {
+  width: 100%;
+  height: 44em;
+}
+
+.contacts>p {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  color: gray;
+}
+
+.contacts>.address {
+  margin: 1em;
+  font-weight: bold;
+  font-size: large;
+}
+
+contacts.address>img {
+  margin-right: .5em;
+}
+
+.contacts>.address>div {
+  display: inline-block;
+  align-items: center;
+  width: 15%;
+  margin: 0 .5em;
+  padding-bottom: 1em;
+}
+
+.world-map>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 25em;
+  background-color: #59711b;
+  color: white;
+  font-size: small;
+  text-align: left;
+  vertical-align: text-top;
+}
+
+.col {
+  width: 15%;
+  float: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+address p, .copyright p {
+  width: 100%;
+  margin-top: 15em;
+  font-style: normal;
+  text-align: left;
+}
+
+address p {
+  margin-top: 13em;
+}
+
+.copyright p {
+  margin-top: 3em;
+}
+
+.col h1 {
+  font-size: large;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+footer a:link {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  margin-top: 1em;
+}
+
+.vl2, .vl3, .vl4 {
+  border-left: 1px solid #a2d94a;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+}
+
+.vl2 {
+  left: 25%;
+}
+
+.vl3 {
+  left: 50%;
+}
+
+.vl4 {
+  left: 75%;
 }
