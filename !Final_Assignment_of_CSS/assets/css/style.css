@@ -1,6 +1,10 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  padding: 0;
+  border: none;
+  position: relative;
+  text-align: center;
 }
 
 header {
@@ -18,7 +22,7 @@ header {
   float: right;
 }
 
-img {
+header img {
   margin-right: 5px;
   vertical-align: middle;
 }
@@ -37,11 +41,9 @@ header>div>a {
   height: 40px;
   width: 135px;
   line-height: 2.5;
-  text-align: center;
   color: #000;
   text-shadow: 1px 1px 1px #fff;
   background-color: #a2d94a;
-  border: none;
   border-bottom: 3px solid #59711b;
   border-radius: 5px;
 }
@@ -84,7 +86,6 @@ nav>a:active, nav>a:hover {
   background-image: url(../images/bg-slider.png);
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
 }
 
 .slider-heading, .slider-text {
@@ -116,7 +117,6 @@ nav>a:active, nav>a:hover {
   height: 60px;
   background-color: #febd19;
   border-radius: 10px;
-  border: none;
   border-bottom: 5px solid #ff8221;
   margin: 50px auto 80px auto;
 }
@@ -133,7 +133,7 @@ button {
   outline: 0;
 }
 
-.dot, .dot-white {
+.dot, .dot-white, .dot-orange {
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -165,12 +165,10 @@ button {
   width: 100%;
   height: 590px;
   background-color: #fff;
-  position: relative;
-  text-align: center;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 800;
   margin-top: 55px;
 }
@@ -199,21 +197,222 @@ h2 {
 .about {
   width: 100%;
   height: 590px;
-  position: relative;
-  text-align: center;
   background-image: url(../images/bg-about-us.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 3em;
+  padding-top: 3rem;
 }
-.about div{
+
+.about div {
   width: 40%;
-  padding: 3em;
+  padding: 3rem;
 }
+
 .about p {
   text-align: left;
 }
-.about > img{
+
+.about>img {
   width: 400px;
   height: 100%;
+}
+
+.btn-about {
+  width: 230px;
+  height: 60px;
+  background-color: #febd19;
+  border-radius: 10px;
+  border-bottom: 5px solid #ff8221;
+  margin-top: 1rem;
+  float: left;
+}
+
+.btn-about:hover {
+  border-bottom: 3px solid #59711b;
+}
+
+.btn-about:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.services {
+  width: 100%;
+  height: 560px;
+  background-color: white;
+  padding-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services>p {
+  margin: 1rem;
+}
+
+.service {
+  width: 100%;
+  height: 25rem;
+  margin-top: 5rem;
+}
+
+.service div {
+  display: inline-block;
+  width: 17%;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: .5rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.service img {
+  width: 5rem;
+  height: auto;
+  margin-top: -3.5rem;
+}
+
+.service h2 {
+  margin-top: 2rem;
+}
+
+.service p {
+  margin-bottom: 3rem;
+}
+
+.service a {
+  color: #a2d84c;
+}
+
+.portfolio {
+  width: 100%;
+  height: 55rem;
+  padding-top: 3rem;
+  background-color: #212121;
+  color: white;
+}
+
+.portfolio p {
+  margin: 2rem 0;
+}
+
+.portfolio a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.text-color-orange {
+  color: #fd8221 !important;
+  font-weight: bold;
+}
+
+.logos {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.logos img {
+  display: inline-block;
+  width: 17%;
+  height: auto;
+  margin: -7px;
+}
+
+.arrow {
+  display: block;
+  width: 100%;
+  height: 3rem;
+  padding-top: 1rem;
+}
+
+.process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process div {
+  display: inline-block;
+  width: 10%;
+  height: 200px;
+  padding: 1rem;
+  margin-bottom: 10rem;
+}
+
+.process h2, .process p, .process img {
+  margin-top: 1.5rem;
+}
+
+.process img {
+  width: 100%;
+  height: auto;
+}
+
+.peopleaboutus {
+  width: 100%;
+  height: 52rem;
+  padding-top: 5px;
+  background-color: #f2f2f2;
+  background-image: url(../images/people-about-us-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.peopleaboutus>p {
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.people {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.johndoe h2, .johndoe p {
+  text-align: left;
+}
+
+.johndoe {
+  width: 40%;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.johndoe img {
+  width: 20%;
+  height: auto;
+  margin-right: 1rem;
+  float: left;
+}
+
+hr {
+  width: 100%;
+  position: relative;
+  border: 0;
+  height: 4px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+}
+
+.vl {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+  /* border-left: 6px solid gray; */
+  height: 200%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+  width: 4px;
+}
+
+.dot-orange {
+  background-color: #ff831d;
+}
+
+.peopleaboutus .dot {
+  background-color: rgba(255, 131, 29, .5) !important;
 }
