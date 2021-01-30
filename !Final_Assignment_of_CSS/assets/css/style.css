@@ -8,11 +8,30 @@
   vertical-align: middle;
 }
 
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+h2 {
+  font-size: large;
+  margin-bottom: 1em;
+}
+
+button {
+  outline: 0;
+  border: none;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+}
+
 header {
   background-color: #000;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
+  height: 3.875em;
+  line-height: 3.875em;
 }
 
 .left {
@@ -24,7 +43,7 @@ header {
 }
 
 header img {
-  margin-right: 5px;
+  margin-right: .5em;
   vertical-align: middle;
 }
 
@@ -34,23 +53,23 @@ header>div>a {
 }
 
 .btn-tel-icon {
-  margin-left: 12px;
+  margin-left: 1em;
 }
 
 header button, .slider button {
-  margin-left: 32px;
-  height: 40px;
-  width: 135px;
-  line-height: 2.5;
+  margin-left: 2em;
+  height: 2.53m;
+  width: 10em;
+  line-height: 2.53em;
   color: #000;
   text-shadow: 1px 1px 1px #fff;
   background-color: #a2d94a;
   border-bottom: 3px solid #59711b;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 header button:hover {
-  border-bottom: 3px solid #fcbe15;
+  border-bottom: 3px solid #a2d94a;
 }
 
 header button:active {
@@ -59,31 +78,30 @@ header button:active {
 
 .navigation {
   width: 100%;
-  height: 100px;
-  margin: 10px 0;
+  margin: .625em 0;
 }
 
-nav {
-  height: 100px;
-  line-height: 100px;
+.navigation, nav {
+  height: 6.25em;
+  line-height: 6.25em;
 }
 
 nav>a {
-  margin: 0 15px;
+  margin: 0 1em;
   text-decoration: none;
   color: #000;
   font-weight: 700;
 }
 
 nav>a:active, nav>a:hover {
-  border-bottom: 12px solid #fcbe15;
-  padding-bottom: 40px;
+  border-bottom: .75em solid #fcbe15;
+  padding-bottom: 2.5em;
 }
 
 .slider {
-  height: 620px;
   width: 100%;
-  margin: auto;
+  height: 38.750em;
+  margin: 0 auto;
   background-image: url(../images/bg-slider.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,16 +112,16 @@ nav>a:active, nav>a:hover {
 }
 
 .green-box {
-  height: 85px;
   width: 29%;
+  height: 5.625em;
   background-color: #a2d84c;
 }
 
 .slider-heading {
   width: 30%;
-  font-size: 70px;
+  height: 5.625em;
+  font-size: 4.375em;
   font-weight: 700;
-  margin: 0;
   display: inline;
 }
 
@@ -114,31 +132,26 @@ nav>a:active, nav>a:hover {
 }
 
 .slider button {
-  width: 230px;
-  height: 60px;
+  width: 14.375em;
+  height: 3.750em;
   background-color: #febd19;
-  border-radius: 10px;
+  border-radius: .5em;
   border-bottom: 3px solid #ff8221;
-  margin: 50px auto 80px auto;
+  margin: 3.125em auto;
 }
 
 .slider button:hover {
-  border-bottom: 3px solid #59711b;
+  border-bottom: 3px solid #febd19;
 }
 
 .slider button:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
-button {
-  outline: 0;
-  border: none;
-}
-
 .dot, .dot-white, .dot-orange {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
+  height: 1em;
+  width: 1em;
+  margin: 2em .2em;
   border-radius: 50%;
   display: inline-block;
 }
@@ -163,78 +176,63 @@ button {
   color: #59711b;
 }
 
-#advantages, .about {
+#advantages {
   width: 100%;
-  height: 590px;
+  height: 35.625em;
   background-color: #fff;
 }
 
-h1 {
-  font-size: 3em;
-  font-weight: 800;
-  margin-top: 55px;
-}
-
-h2 {
-  font-size: large;
-  margin-bottom: 15px;
-}
-
 #advantages>p {
-  margin-top: 30px;
+  margin-top: 1em;
   color: gray;
 }
 
 .advantage {
   width: 20%;
   float: left;
-  margin-top: 55px;
+  margin-top: 4em;
 }
 
-.advantage>p{
+.advantage>p {
   color: gray;
 }
+
 .advantage>img {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 25px;
+  width: 60%;
+  height: auto;
+  margin-bottom: 1.5em;
 }
 
 .about {
   width: 100%;
-  height: 590px;
+  height: 36.875em;
   background-image: url(../images/bg-about-us.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 .about div {
   width: 40%;
-  padding: 3em;
+  padding: 3em 5em;
 }
 
 .about p {
+  width: 100%;
   text-align: left;
 }
 
-.about>img {
-  width: 400px;
-  height: 100%;
-}
-
 .about button {
-  width: 230px;
-  height: 60px;
+  width: 14.375em;
+  height: 3.750em;
   background-color: #febd19;
-  border-radius: 10px;
+  border-radius: .5em;
   border-bottom: 3px solid #ff8221;
-  margin-top: 1em;
   float: left;
 }
 
 .about button:hover {
-  border-bottom: 3px solid #59711b;
+  border-bottom: 3px solid #febd19;
 }
 
 .about button:active {
@@ -243,7 +241,7 @@ h2 {
 
 #services {
   width: 100%;
-  height: 560px;
+  height: 35.000em;
   background-color: white;
   padding-top: 2em;
   display: block;
@@ -258,14 +256,14 @@ h2 {
 
 .service {
   width: 100%;
-  height: 25em;
+  height: 1.5em;
   margin-top: 5em;
 }
 
 .service div {
   display: inline-block;
   width: 17%;
-  height: 200px;
+  height: 12.500em;
   background-color: #f2f2f2;
   border-radius: .5em;
   padding: 1em;
@@ -325,7 +323,7 @@ h2 {
   display: inline-block;
   width: 17%;
   height: auto;
-  margin: -7px;
+  margin: -.5em;
 }
 
 .arrow {
@@ -344,7 +342,7 @@ h2 {
 .process div {
   display: inline-block;
   width: 10%;
-  height: 200px;
+  height: 12.500em;
   padding: 1em;
   margin-bottom: 10em;
 }
@@ -352,9 +350,11 @@ h2 {
 .process h2, .process p, .process img {
   margin-top: 1.5em;
 }
-.process p, #process p{
+
+.process p, #process p {
   color: gray;
 }
+
 .process img {
   width: 100%;
   height: auto;
@@ -362,8 +362,8 @@ h2 {
 
 .peopleaboutus {
   width: 100%;
-  height: 52em;
-  padding-top: 5px;
+  height: 54em;
+  padding-top: .5em;
   background-color: #f2f2f2;
   background-image: url(../images/people-about-us-bg.png);
   background-repeat: no-repeat;
@@ -434,7 +434,8 @@ hr {
   align-items: center;
   justify-content: center;
 }
-#skills > p{
+
+#skills>p {
   color: gray;
 }
 
@@ -460,10 +461,11 @@ figcaption {
   margin-bottom: 1em;
 }
 
-input[type=text], input[type=email], input[type=tel], .request button {
-  width: 15%;
-  padding: 12px 20px;
-  margin: 5px;
+input[type=text], input[type=email], input[type=tel] {
+  width: 15em;
+  height: 3em;
+  padding: 1em 1.5em;
+  margin: .5em;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -471,15 +473,16 @@ input[type=text], input[type=email], input[type=tel], .request button {
 }
 
 .request button {
+  width: 14.375em;
+  height: 2.75em;
   background-color: #febd19;
+  border-radius: .3em;
   border-bottom: 3px solid #ff8221;
-  cursor: pointer;
-  margin-left: 20px;
-  width: 10%;
+  margin-left: 1em;
 }
 
 .request button:hover {
-  border-bottom: 3px solid #59711b;
+  border-bottom: 3px solid #febd19;
 }
 
 .request button:active {
@@ -563,6 +566,7 @@ address p {
 .col h1 {
   font-size: large;
   text-align: left;
+  margin-top: 3.5em;
   margin-bottom: 1em;
 }
 
